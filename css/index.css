@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header .container .logo {
+  width: 80px;
+  height: 80px;
+}
+.header .container .menu {
+  display: flex;
+  padding: 30px 0;
+}
+.header .container .menu .nav {
+  padding: 0 50px 0 0;
+  font-size: 13px;
+}
+.header .container .menu .nav a {
+  text-decoration: none;
+  margin: 0 30px;
+  color: #181818;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header .container .menu .mini-contact .right-menu .contact-link {
+  display: flex;
+}
+.header .container .menu .mini-contact .right-menu .contact-link a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+.header .container .menu .mini-contact .right-menu .contact-link a .btn-numphone {
+  margin: 0 30px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  background-color: #b61984;
+  padding: 10px;
+  border-radius: 50px;
+}
+.header .container .menu .mini-contact .right-menu .contact-link a .icon {
+  color: #181818;
+}
+
+.carousel .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../images/yellow_top_wave_01.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.carousel .container .detail .about-us {
+  color: #b61984;
+  font-size: 16.5px;
+  margin-bottom: 8px;
+}
+.carousel .container .detail .title {
+  font-size: 57px;
+  color: #191919;
+  font-weight: 700;
+}
+.member .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.member .container .row .col {
+  width: 25%;
+  padding: 15px;
+}
+.member .container .row .col .content .img {
+  display: block;
+  margin: 0;
+  line-height: 0;
+  max-width: 100%;
+  height: auto;
+}
